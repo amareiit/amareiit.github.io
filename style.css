@@ -45,3 +45,18 @@ h1 {
     margin: 0.2rem 0;
     color: var(--text-muted);
 }
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.skills-list li {
+    background-color: var(--bg-card);
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    border: 1px solid #2a2a2a;
+}

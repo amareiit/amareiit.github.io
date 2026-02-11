@@ -5,11 +5,30 @@
     --text-muted: #b3b3b3;
     --accent: #4da3ff;
 }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-main);
+}
+
+section {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: var(--bg-card);
+    border-radius: 8px;
+    border: 1px solid #2a2a2a;
+}
+
+
 header {
     text-align: center;
-    padding: 3.0rem 1rem;
+    padding: 3rem 1rem;
     border-bottom: 1px solid #2a2a2a;
 }
+
 h1 {
     font-size: 2.5rem;
     margin: 0;
@@ -22,6 +41,7 @@ h1 {
     font-size: 1.1rem;
     letter-spacing: 0.5px;
 }
+
 .contact-links {
     margin-top: 1.2rem;
 }
@@ -29,23 +49,35 @@ h1 {
 .contact-links a {
     color: var(--accent);
     text-decoration: none;
-    margin: 0.1rem;
+    margin: 0 0.8rem;
     font-weight: 500;
 }
 
 .contact-links a:hover {
     text-decoration: underline;
 }
+
+
+h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #2a2a2a;
+    padding-bottom: 0.5rem;
+}
+
+
 .education-item h3 {
     margin-bottom: 0.3rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .education-item p {
     margin: 0.2rem 0;
     color: var(--text-muted);
 }
-.skills-list {
+
+
+.skillset {
     list-style: none;
     padding: 0;
     display: flex;
@@ -53,10 +85,68 @@ h1 {
     gap: 0.8rem;
 }
 
-.skills-list li {
-    background-color: var(--bg-card);
+.skillset li {
+    background-color: #121212;
     padding: 0.6rem 1rem;
     border-radius: 5px;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     border: 1px solid #2a2a2a;
+}
+
+
+.experience-item {
+    margin-bottom: 1.5rem;
+}
+
+.experience-item h3 {
+    margin-bottom: 0.3rem;
+    font-size: 1.1rem;
+}
+
+.experience-date {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 0.5rem;
+}
+
+.experience-item p {
+    line-height: 1.6;
+}
+
+
+.project-item {
+    margin-bottom: 1.5rem;
+}
+
+.project-item a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.project-item a:hover {
+    text-decoration: underline;
+}
+
+
+.headshot-section {
+    text-align: center;
+}
+
+.headshot-container img {
+    max-width: 200px;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #2a2a2a;
+    margin-top: 1rem;
+}
+
+
+footer {
+    margin-top: 3rem;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    border-top: 1px solid #2a2a2a;
+    color: var(--text-muted);
+    font-size: 0.9rem;
 }

@@ -22,3 +22,17 @@ h1 {
     font-size: 1.1rem;
     letter-spacing: 0.5px;
 }
+.contact-links {
+    margin-top: 1.2rem;
+}
+
+.contact-links a {
+    color: var(--accent);
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: 500;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+}
